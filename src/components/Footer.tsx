@@ -13,9 +13,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="m-0 mb-4 text-sm font-semibold text-white">
-              Produto
-            </p>
+            <p className="m-0 mb-4 text-sm font-semibold text-white">Produto</p>
             <div className="flex flex-col gap-3">
               <a href="#servicos" className="text-sm text-gray-2">
                 Serviços
@@ -30,23 +28,22 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="m-0 mb-4 text-sm font-semibold text-white">
-              Contato
-            </p>
+            <p className="m-0 mb-4 text-sm font-semibold text-white">Contato</p>
             <div className="flex flex-col gap-3">
-              <a href="mailto:contato@trelia.com.br" className="text-sm text-gray-2">
+              <a
+                href="mailto:contato@trelia.com.br"
+                className="text-sm text-gray-2"
+              >
                 contato@trelia.com.br
               </a>
               <a href="tel:+551140028922" className="text-sm text-gray-2">
-                +55 11 4002-8922
+                +55 11 98623-0700
               </a>
             </div>
           </div>
 
-          <div>
-            <p className="m-0 mb-4 text-sm font-semibold text-white">
-              Redes
-            </p>
+          {/* <div>
+            <p className="m-0 mb-4 text-sm font-semibold text-white">Redes</p>
             <div className="flex flex-col gap-3">
               <a href="#" className="text-sm text-gray-2">
                 LinkedIn
@@ -55,7 +52,7 @@ export default function Footer() {
                 Instagram
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
         <p className="m-0 mt-6 text-[13px] text-[#4B5563]">
           © 2026 Trelia Software. Todos os direitos reservados.
