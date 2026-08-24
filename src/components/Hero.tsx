@@ -3,31 +3,38 @@ import OrbField from "./OrbField";
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-[760px] items-center px-6 pt-[180px] pb-[120px]">
+    <section className="relative flex min-h-[760px] items-center px-6 pt-[110px] pb-[120px]">
       <OrbField />
       <div className="relative z-10 mx-auto w-full max-w-6xl">
         <div className="max-w-[800px]">
-          <Reveal className="trelia-glass mb-8 inline-flex items-center gap-2 rounded-full px-4 py-[7px]">
-            <span className="trelia-pulse h-1.5 w-1.5 rounded-full bg-blue-light" />
-            <span className="text-[13px] font-medium text-[#93C5FD]">
-              Software house brasileira
-            </span>
-          </Reveal>
-
           <Reveal
             delay={0.05}
             as="h1"
-            className="m-0 mb-7 text-[clamp(2.8rem,7vw,5.4rem)] leading-[1.0] font-black tracking-[-0.04em]"
+            className="m-0 mb-7 text-[clamp(2.8rem,7vw,5.4rem)] leading-[1.05] font-black tracking-[-0.04em]"
           >
-            <span className="trelia-gradient-text">Software sob medida,</span>
+            <span className="trelia-gradient-text">Mais clientes.</span> Mais
+            vendas.
             <br />
-            construído para durar.
+            Menos problemas.
           </Reveal>
 
           <Reveal delay={0.1}>
-            <p className="m-0 mb-11 max-w-[560px] text-xl leading-relaxed text-gray-2">
-              Desenvolvemos os sistemas que sua empresa precisa para crescer.
-              Da arquitetura ao deploy, sem terceirizar a responsabilidade.
+            <p className="m-0 mb-6 max-w-[600px] text-xl leading-relaxed text-gray-2">
+              Poucos leads. Dificuldade para conquistar novos clientes. Vendas
+              que não acontecem. Processos manuais. Equipe perdendo tempo.
+              Sistemas que não conversam entre si.
+            </p>
+          </Reveal>
+
+          <Reveal delay={0.13} className="mb-11 max-w-[620px]">
+            <p className="m-0 mb-3 text-lg font-bold tracking-[-0.01em] text-white">
+              Você traz o problema. A gente encontra a solução.
+            </p>
+            <p className="m-0 text-base leading-relaxed text-gray-2">
+              Somos parceiros de tecnologia para pequenas e médias empresas
+              que querem atrair mais clientes, vender mais, reduzir custos e
+              ganhar eficiência sem precisar entender de tecnologia ou montar
+              uma equipe de TI.
             </p>
           </Reveal>
 
@@ -48,8 +55,8 @@ export default function Hero() {
 
           <Reveal delay={0.2}>
             <p className="m-0 border-t border-white/10 pt-6 text-sm text-gray-3">
-              Mais de 40 produtos entregues para empresas de médio porte no
-              Brasil.
+              Da estratégia à solução, a gente assume o problema e entrega o
+              que sua empresa precisa para crescer.
             </p>
           </Reveal>
         </div>
