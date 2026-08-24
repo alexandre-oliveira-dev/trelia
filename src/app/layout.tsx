@@ -14,10 +14,49 @@ const jetBrainsMono = JetBrains_Mono({
   weight: ["400", "500"],
 });
 
+const title = "Trelia — Software sob medida, construído para durar.";
+const description =
+  "Trelia é uma software house brasileira. Desenvolvemos os sistemas que sua empresa precisa para crescer, da arquitetura ao deploy.";
+
 export const metadata: Metadata = {
-  title: "Trelia — Software sob medida, construído para durar.",
-  description:
-    "Trelia é uma software house brasileira. Desenvolvemos os sistemas que sua empresa precisa para crescer, da arquitetura ao deploy.",
+  metadataBase: new URL("https://trelia.com.br"),
+  title: {
+    default: title,
+    template: "%s — Trelia",
+  },
+  description,
+  keywords: [
+    "software sob medida",
+    "desenvolvimento de software",
+    "software house",
+    "fábrica de software",
+    "desenvolvimento web",
+    "desenvolvimento de sistemas",
+    "Trelia",
+  ],
+  authors: [{ name: "Trelia" }],
+  creator: "Trelia",
+  publisher: "Trelia",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    url: "/",
+    siteName: "Trelia",
+    title,
+    description,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export const viewport: Viewport = {
