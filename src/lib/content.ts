@@ -1,12 +1,3 @@
-export const clientLogos = [
-  "NORTEK",
-  "VELIA",
-  "BRAVOTEC",
-  "ALTIVA",
-  "GRUPO PLANA",
-  "MERIDIAN",
-];
-
 export const services = [
   {
     title: "Sites institucionais",
@@ -77,37 +68,6 @@ export const steps = [
     num: "04",
     title: "Evolução",
     desc: "Acompanhamos métricas de uso e evoluímos o produto junto com o negócio.",
-  },
-];
-
-export const metrics = [
-  { value: "40+", label: "projetos entregues para empresas de médio porte" },
-  { value: "98%", label: "dos contratos são renovados após o primeiro ciclo" },
-  { value: "6 anos", label: "de operação contínua no mercado brasileiro" },
-  { value: "12", label: "squads dedicados ativos no momento" },
-];
-
-export const cases = [
-  {
-    name: "Fintech B2B — Onboarding automatizado",
-    challenge:
-      "Processo manual de análise de crédito levava até 5 dias para concluir.",
-    result: "Tempo de aprovação caiu para 4 horas.",
-    stack: "Node.js · React · AWS",
-  },
-  {
-    name: "Rede de varejo — App de logística",
-    challenge:
-      "Falta de visibilidade em tempo real sobre entregas em rota.",
-    result: "Redução de 30% em atrasos de entrega.",
-    stack: "Kotlin · Swift · GraphQL",
-  },
-  {
-    name: "Indústria — Integração de sistemas legados",
-    challenge:
-      "ERP e CRM não conversavam entre si, gerando retrabalho manual.",
-    result: "Retrabalho manual eliminado em 3 times.",
-    stack: "Java · REST · PostgreSQL",
   },
 ];
 

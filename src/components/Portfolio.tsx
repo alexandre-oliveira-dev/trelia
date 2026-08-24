@@ -5,7 +5,7 @@ import { portfolio } from "@/lib/content";
 
 export default function Portfolio() {
   return (
-    <section className="border-y border-white/[0.06] bg-ink-alt px-6 py-[140px]">
+    <section id="cases" className="border-y border-white/[0.06] bg-ink-alt px-6 py-[140px]">
       <div className="mx-auto max-w-6xl">
         <Reveal className="mb-16 max-w-[640px]">
           <p className="m-0 mb-4 text-sm font-semibold tracking-[0.06em] text-blue-light uppercase">
